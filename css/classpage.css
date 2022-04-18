@@ -1,0 +1,29 @@
+@import url("./index.css");
+body{
+
+}
+header.index_header{
+    height: 300px;
+}
+.class_body{
+
+}
+.class_body h3{
+    font-size: 2em;
+    color: white;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-image: linear-gradient(90deg,#E0B360,#E0B360,rgba(0,0,0,0));
+}
+.class_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.class_list li{
+    margin: 50px 50px;
+    flex-basis: 400px;
+}

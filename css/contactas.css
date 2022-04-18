@@ -1,0 +1,32 @@
+@import url("./index.css");
+@import url("./signup.css");
+input{
+    width: 500px !important;
+}
+.sign_form p{
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+textarea{
+    display: block;
+    width: 500px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+    background-color: #d0d0d0;
+    border:0;
+}
+.sign_form form .button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid black;
+    border-radius:5px;
+    text-align: center;
+}
+.button:hover{
+    background-color: #333;
+    color: #fff;
+}
